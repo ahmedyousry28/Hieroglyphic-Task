@@ -29,7 +29,6 @@ const Content = () => {
           fontSize: `${allData.options.textSize}px`,
           fontFamily: `${allData.options.fontFamily}`,
           color: `${allData.options.color}`,
-          // unicodeBidi: "isolate",
         }}
       />
     </div>

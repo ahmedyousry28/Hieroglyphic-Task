@@ -43,7 +43,7 @@ const SymbolsCard = ({ search }: { search: string }) => {
     );
   });
   return (
-    <div className="grid grid-cols-10 bg-[#FFF] p-2 rounded-md">
+    <div className="grid grid-cols-6 md:grid-cols-10 bg-[#FFF] p-2 rounded-md">
       {renderSymbols.length > 0 ? (
         renderSymbols
       ) : (
