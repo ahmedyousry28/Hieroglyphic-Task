@@ -1,4 +1,3 @@
-import React from "react";
 import { useAppDispatch, useAppSelector } from "../../store/store";
 import { fontFamilies } from "../../data";
 import { setOptions } from "../../store/optionsSlice";
